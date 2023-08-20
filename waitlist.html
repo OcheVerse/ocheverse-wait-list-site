@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join Our Waitlist - Your Company</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .image-container {
+    flex: 1;
+    background-image: url("Artboard\ 1-2.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+
+  .text-container {
+    flex: 1;
+    padding: 40px;
+    background-color: grey;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .join-button {
+    padding: 12px 24px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+    }
+    
+    .image-container {
+      display: none;
+    }
+    
+    .text-container {
+      padding: 20px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="image-container"></div>
+      <div class="text-container">
+        <h1>Welcome to Your Company</h1>
+        <p>We are a revolutionary platform that...</p>
+        <p>To join our waitlist and be part of...</p>
+        <div class="button-container">
+          <button class="join-button">Join Our Waitlist Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
